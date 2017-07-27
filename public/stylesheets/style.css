@@ -11,8 +11,9 @@
 /*===== Styles =====*/
 
 body, html {
-  /*height: 98%;*/
+  width: 100vw;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .titleBox {
@@ -48,6 +49,15 @@ body, html {
   text-shadow: 3px 3px black;
 }
 
+.titleLink:link {
+    color: white;
+}
+
+/* visited link */
+.titleLink:visited {
+    color: white;
+}
+
 /*====Footer====*/
 
 .links {
@@ -60,6 +70,7 @@ body, html {
 .fa {
   padding: 5px;
   color: white;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1104px) {
@@ -98,6 +109,9 @@ body, html {
 
 @media only screen and (max-width: 660px) {
     /* For mobile phones: */
+    body {
+      overflow: hidden;
+    }
     .titleBox {
       text-align: center;
       width: 100%;
@@ -106,6 +120,7 @@ body, html {
     .myTitle {
       position: absolute;
       text-align: center;
+      padding-right: 10px;
       font-size: 35px;
       width: 100%;
     }
