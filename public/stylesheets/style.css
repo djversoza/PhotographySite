@@ -31,7 +31,7 @@ body, html {
   text-align: center;
   margin-top: 200px;
   font-family: takrafVEB;
-  font-size: 45px;
+  font-size: 55px;
   color: white;
   width: 100%;
   text-shadow: 4px 4px black;
@@ -42,17 +42,13 @@ body, html {
   padding-top: 35px;
   text-align: center;
   font-family: takrafVEB;
-  font-size: 24px;
+  font-size: 45px;
   color: white;
   width: 100%;
   text-shadow: 3px 3px black;
 }
 
 /*====Footer====*/
-
-footer {
-  position: relative;
-}
 
 .links {
   width: 100%;
@@ -66,35 +62,41 @@ footer {
   color: white;
 }
 
-@media only screen and (max-width: 1024px) {
-    /* For mobile phones: */
-    .titleBox {
-      text-align: center;
-      width: 100%;
-    }
+@media only screen and (max-width: 1104px) {
+  .titleBox {
+    text-align: center;
+    width: 100%;
+  }
 
-    .myTitle {
-      position: absolute;
-      text-align: center;
-      font-size: 40px;
-      width: 100%;
-    }
+  .myTitle {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
 
-    .titleDesc {
-      position: absolute;
-      box-sizing: border-box;
-      padding-top: 35px;
-      margin-top: 220px;
-      text-align: center;
-      font-family: takrafVEB;
-      font-size: 24px;
-      color: white;
-      width: 100%;
-      text-shadow: 3px 3px black;
-    }
+  .titleDesc {
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 75px;
+    margin-top: 220px;
+    text-align: center;
+    font-family: takrafVEB;
+    font-size: 45px;
+    color: white;
+    width: 100%;
+    text-shadow: 3px 3px black;
+  }
+
+  .links {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 480px;
+    font-size: 50px;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 660px) {
     /* For mobile phones: */
     .titleBox {
       text-align: center;
@@ -104,7 +106,7 @@ footer {
     .myTitle {
       position: absolute;
       text-align: center;
-      font-size: 30px;
+      font-size: 35px;
       width: 100%;
     }
 
@@ -119,5 +121,13 @@ footer {
       color: white;
       width: 100%;
       text-shadow: 3px 3px black;
+    }
+
+    .links {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      margin-top: 350px;
+      font-size: 50px;
     }
 }
