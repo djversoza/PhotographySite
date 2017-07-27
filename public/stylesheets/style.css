@@ -1,0 +1,123 @@
+@font-face {
+  font-family: takraf3d;
+  src: url(../fonts/Takraf-3d.otf);
+}
+
+@font-face {
+  font-family: takrafVEB;
+  src: url(../fonts/Takraf-VEB.otf);
+}
+
+/*===== Styles =====*/
+
+body, html {
+  /*height: 98%;*/
+  text-align: center;
+}
+
+.titleBox {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0px auto;
+  /*margin-top: 40px;*/
+}
+
+.boxer {
+  text-align: center;
+}
+
+.myTitle {
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 200px;
+  font-family: takrafVEB;
+  font-size: 45px;
+  color: white;
+  width: 100%;
+  text-shadow: 4px 4px black;
+}
+
+.titleDesc {
+  box-sizing: border-box;
+  padding-top: 35px;
+  text-align: center;
+  font-family: takrafVEB;
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  text-shadow: 3px 3px black;
+}
+
+/*====Footer====*/
+
+footer {
+  position: relative;
+}
+
+.links {
+  width: 100%;
+  text-align: center;
+  margin-top: 17%;
+  font-size: 50px;
+}
+
+.fa {
+  padding: 5px;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For mobile phones: */
+    .titleBox {
+      text-align: center;
+      width: 100%;
+    }
+
+    .myTitle {
+      position: absolute;
+      text-align: center;
+      font-size: 40px;
+      width: 100%;
+    }
+
+    .titleDesc {
+      position: absolute;
+      box-sizing: border-box;
+      padding-top: 35px;
+      margin-top: 220px;
+      text-align: center;
+      font-family: takrafVEB;
+      font-size: 24px;
+      color: white;
+      width: 100%;
+      text-shadow: 3px 3px black;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .titleBox {
+      text-align: center;
+      width: 100%;
+    }
+
+    .myTitle {
+      position: absolute;
+      text-align: center;
+      font-size: 30px;
+      width: 100%;
+    }
+
+    .titleDesc {
+      position: absolute;
+      box-sizing: border-box;
+      padding-top: 35px;
+      margin-top: 220px;
+      text-align: center;
+      font-family: takrafVEB;
+      font-size: 24px;
+      color: white;
+      width: 100%;
+      text-shadow: 3px 3px black;
+    }
+}
