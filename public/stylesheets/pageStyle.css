@@ -1,0 +1,118 @@
+@font-face {
+  font-family: takraf3d;
+  src: url(../fonts/Takraf-3d.otf);
+}
+
+@font-face {
+  font-family: takrafVEB;
+  src: url(../fonts/Takraf-VEB.otf);
+}
+
+body {
+  background-color: black;
+}
+
+.myName{
+  text-decoration: none;
+  font-family: takrafVEB;
+  color: white;
+}
+
+.myName:visited{
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 803px) {
+
+
+
+  ul {
+    position: absolute;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: grey;
+      width: 100%;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #111;
+  }
+
+  .active {
+      background-color: #4CAF50;
+  }
+
+  .pic {
+    position: absolute;
+    width: 95%;
+    height: auto;
+    top: 200px;
+    border: solid 10px white;
+  }
+}
+
+@media only screen and (min-width: 804px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .pic {
+    position: relative;
+    width: 900px;
+    margin-left:24%;
+    height: auto;
+    bottom: 234px;
+    border: solid 10px white;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 20%;
+      background-color: rgba(210, 210, 210, 1);
+  }
+
+  li a {
+      display: block;
+      color: #000;
+      padding: 20px 16px;
+      text-decoration: none;
+      font-family: takrafVEB;
+  }
+
+  li a.active {
+      background-color: rgba(44, 218, 196, 1);
+      color: white;
+  }
+
+  li a:hover:not(.active) {
+      background-color: rgba(70, 80, 196, 1);
+      color: white;
+  }
+
+  .active{
+    border-bottom: solid 2px grey;
+  }
+
+  .linkOp {
+    border-bottom: solid 2px grey;
+  }
+
+}
